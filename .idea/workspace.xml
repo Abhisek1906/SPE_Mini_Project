@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3830bb2-4df6-471a-9dae-87646c017cbc" name="Changes" comment="build the docker file.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e3830bb2-4df6-471a-9dae-87646c017cbc" name="Changes" comment="updated the docker file.">
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677732235114</updated>
-      <workItem from="1677732237006" duration="3825000" />
+      <workItem from="1677732237006" duration="4406000" />
     </task>
     <task id="LOCAL-00001" summary="build the docker file.">
       <created>1677737629558</created>
@@ -89,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677737629558</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updated the docker file.">
+      <created>1677777590645</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677777590645</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +115,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
     <MESSAGE value="build the docker file." />
-    <option name="LAST_COMMIT_MESSAGE" value="build the docker file." />
+    <MESSAGE value="updated the docker file." />
+    <option name="LAST_COMMIT_MESSAGE" value="updated the docker file." />
   </component>
 </project>
