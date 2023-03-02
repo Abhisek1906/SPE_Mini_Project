@@ -1,0 +1,22 @@
+package Calculator;
+
+import java.util.Calendar;
+import java.util.Scanner;
+
+public class Calculator {
+
+    public Calculator(){
+
+    }
+
+    public long add(long a,long b){
+        return a+b;
+    }
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        Calculator calculator=new Calculator();
+        long a=sc.nextLong();
+        long b=sc.nextLong();
+        System.out.println(calculator.add(a,b));
+    }
+}
