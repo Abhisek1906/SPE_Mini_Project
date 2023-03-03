@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3830bb2-4df6-471a-9dae-87646c017cbc" name="Changes" comment="deleted the dockerifnore file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e3830bb2-4df6-471a-9dae-87646c017cbc" name="Changes" comment="Added the mul function">
       <change beforePath="$PROJECT_DIR$/src/main/java/Calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Calculator/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677732235114</updated>
-      <workItem from="1677732237006" duration="5295000" />
+      <workItem from="1677732237006" duration="6142000" />
     </task>
     <task id="LOCAL-00001" summary="build the docker file.">
       <created>1677737629558</created>
@@ -110,7 +109,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677778115567</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added the sub function">
+      <created>1677820678423</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677820678423</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added the mul function">
+      <created>1677820873998</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677820873998</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +145,8 @@
     <MESSAGE value="build the docker file." />
     <MESSAGE value="updated the docker file." />
     <MESSAGE value="deleted the dockerifnore file" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted the dockerifnore file" />
+    <MESSAGE value="Added the sub function" />
+    <MESSAGE value="Added the mul function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the mul function" />
   </component>
 </project>
