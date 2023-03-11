@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3830bb2-4df6-471a-9dae-87646c017cbc" name="Changes" comment="Added the div function">
-      <change afterPath="$PROJECT_DIR$/inventory" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/playbook.yml" afterDir="false" />
+    <list default="true" id="e3830bb2-4df6-471a-9dae-87646c017cbc" name="Changes" comment="Added inventory and playbook">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory" beforeDir="false" afterPath="$PROJECT_DIR$/inventory" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +81,8 @@
       <option name="presentableId" value="Default" />
       <updated>1677732235114</updated>
       <workItem from="1677732237006" duration="7598000" />
-      <workItem from="1678556465542" duration="303000" />
+      <workItem from="1678556465542" duration="1016000" />
+      <workItem from="1678558875216" duration="606000" />
     </task>
     <task id="LOCAL-00001" summary="build the docker file.">
       <created>1677737629558</created>
@@ -147,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677862874495</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added inventory and playbook">
+      <created>1678556871013</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1678556871013</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +179,7 @@
     <MESSAGE value="Added the sub function" />
     <MESSAGE value="Added the mul function" />
     <MESSAGE value="Added the div function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the div function" />
+    <MESSAGE value="Added inventory and playbook" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added inventory and playbook" />
   </component>
 </project>
