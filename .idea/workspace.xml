@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e3830bb2-4df6-471a-9dae-87646c017cbc" name="Changes" comment="Added inventory and playbook">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory" beforeDir="false" afterPath="$PROJECT_DIR$/inventory" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +81,7 @@
       <updated>1677732235114</updated>
       <workItem from="1677732237006" duration="7598000" />
       <workItem from="1678556465542" duration="1016000" />
-      <workItem from="1678558875216" duration="606000" />
+      <workItem from="1678558875216" duration="1845000" />
     </task>
     <task id="LOCAL-00001" summary="build the docker file.">
       <created>1677737629558</created>
@@ -154,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678556871013</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added inventory and playbook">
+      <created>1678559590334</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1678559590334</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
