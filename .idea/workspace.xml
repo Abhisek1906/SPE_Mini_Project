@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3830bb2-4df6-471a-9dae-87646c017cbc" name="Changes" comment="updated the docker file">
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,11 +54,11 @@
 }]]></component>
   <component name="RunManager">
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Calculator.Calculator" />
+      <option name="MAIN_CLASS_NAME" value="calculator.Calculator" />
       <module name="SPE_Mini_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Calculator.*" />
+          <option name="PATTERN" value="calculator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,7 +84,7 @@
       <workItem from="1678556465542" duration="1016000" />
       <workItem from="1678558875216" duration="1845000" />
       <workItem from="1678726687543" duration="1362000" />
-      <workItem from="1678767954986" duration="3590000" />
+      <workItem from="1678767954986" duration="4284000" />
     </task>
     <task id="LOCAL-00001" summary="build the docker file.">
       <created>1677737629558</created>
@@ -233,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678775751661</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="updated the docker file">
+      <created>1678776056265</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1678776056265</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
