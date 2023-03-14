@@ -6,3 +6,6 @@
       docker_image:
         name: abhisek1906/devops-integration
         source: pull
+
+    - name: running container
+      shell: docker run -it -d abhisek1906/devops-integration
