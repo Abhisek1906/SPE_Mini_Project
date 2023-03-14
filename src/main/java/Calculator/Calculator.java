@@ -1,5 +1,6 @@
-package calculator;
+package Calculator;
 
+import java.util.Calendar;
 import java.util.Scanner;
 
 public class Calculator {
