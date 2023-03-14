@@ -1,15 +1,20 @@
 package Calculator;
 
+import org.apache.log4j.BasicConfigurator;
+import org.apache.log4j.Logger;
+
 import java.util.Calendar;
 import java.util.Scanner;
 
 public class Calculator {
 
+    Logger logger=Logger.getLogger(Calculator.class);
     public Calculator(){
 
     }
 
     public long add(long a,long b){
+        logger.info("Inputs" + a + " " + b);
         return a+b;
     }
 
@@ -25,6 +30,7 @@ public class Calculator {
         return a/b;
     }
     public static void main(String[] args){
+        BasicConfigurator.configure();
         Scanner sc=new Scanner(System.in);
         Calculator calculator=new Calculator();
         long a=sc.nextLong();
