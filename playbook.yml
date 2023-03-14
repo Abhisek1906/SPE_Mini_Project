@@ -2,7 +2,7 @@
 - name: Pull docker image of devops-integration
   hosts: all
   tasks:
-    - name: Pull  devops-integration devops image
+    - name: Pull devops-integration devops image
       docker_image:
         name: abhisek1906/devops-integration
         source: pull
