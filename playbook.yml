@@ -8,4 +8,4 @@
         source: pull
 
     - name: running container
-      shell: docker run -it -d abhisek1906/devops-integration
+      shell: docker run -it -d abhisek1906/devops-integration /bin/bash
