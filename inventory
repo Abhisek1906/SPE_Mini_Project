@@ -1,1 +1,1 @@
-client1 ansible_host=172.17.0.2 ansible_connection=ssh ansible_user=ansible_usr ansible_pass=Abhisek.1#
+ansible_host=localhost  ansible_user=abhisek
