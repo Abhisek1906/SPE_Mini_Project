@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3830bb2-4df6-471a-9dae-87646c017cbc" name="Changes" comment="Added inventory and playbook" />
+    <list default="true" id="e3830bb2-4df6-471a-9dae-87646c017cbc" name="Changes" comment="Added inventory and playbook">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory" beforeDir="false" afterPath="$PROJECT_DIR$/inventory" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,6 +84,7 @@
       <workItem from="1678556465542" duration="1016000" />
       <workItem from="1678558875216" duration="1845000" />
       <workItem from="1678726687543" duration="1362000" />
+      <workItem from="1678767954986" duration="1501000" />
     </task>
     <task id="LOCAL-00001" summary="build the docker file.">
       <created>1677737629558</created>
@@ -166,7 +170,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678726908467</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added inventory and playbook">
+      <created>1678767966130</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1678767966130</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added inventory and playbook">
+      <created>1678772540210</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1678772540210</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
