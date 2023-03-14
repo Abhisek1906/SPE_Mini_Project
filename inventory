@@ -1,1 +1,1 @@
-localhost  ansible_user=abhisek
+localhost  ansible_user=abhisek ansible_sudo_pass=Abhisek.1#
