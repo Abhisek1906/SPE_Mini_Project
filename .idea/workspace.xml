@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3830bb2-4df6-471a-9dae-87646c017cbc" name="Changes" comment="added the log4j properties file and updated the dependencies">
-      <change afterPath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" afterDir="false" />
+    <list default="true" id="e3830bb2-4df6-471a-9dae-87646c017cbc" name="Changes" comment="Junit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Calculator/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +55,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CalculatorTest">
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Calculator.Calculator" />
       <module name="SPE_Mini_Project" />
@@ -69,9 +69,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SPE_Mini_Project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.factorialFalsePositive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SPE_Mini_Project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+      <option name="METHOD_NAME" value="factorialFalsePositive" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.squareRootTruePositive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SPE_Mini_Project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+      <option name="METHOD_NAME" value="squareRootTruePositive" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="JUnit.CalculatorTest.squareRootTruePositive" />
         <item itemvalue="Application.Calculator" />
+        <item itemvalue="JUnit.CalculatorTest.factorialFalsePositive" />
       </list>
     </recent_temporary>
   </component>
@@ -93,7 +125,7 @@
       <workItem from="1678873287107" duration="189000" />
       <workItem from="1678873876376" duration="483000" />
       <workItem from="1679378464905" duration="5000" />
-      <workItem from="1679379634353" duration="7768000" />
+      <workItem from="1679379634353" duration="11746000" />
     </task>
     <task id="LOCAL-00001" summary="build the docker file.">
       <created>1677737629558</created>
@@ -298,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678820917607</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Junit">
+      <created>1679400476370</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1679400476371</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,6 +369,10 @@
     <MESSAGE value="Updated the pom.xml file" />
     <MESSAGE value="updated the docker file" />
     <MESSAGE value="added the log4j properties file and updated the dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="added the log4j properties file and updated the dependencies" />
+    <MESSAGE value="Junit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Junit" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SPE_Mini_Project$CalculatorTest_factorialFalsePositive.ic" NAME="CalculatorTest.factorialFalsePositive Coverage Results" MODIFIED="1679401064705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

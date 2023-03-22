@@ -33,25 +33,29 @@ public class Calculator {
 
     public  double squareRoot(int num)
     {
-
-        double t;
-        double sqrtroot=num/2;
-        do
-        {
-            t=sqrtroot;
-            sqrtroot=(t+(num/t))/2;
-        }
-        while((t-sqrtroot)!= 0);
-        return sqrtroot;
+        logger.info("Square Root of"+num);
+//        double t;
+//        double sqrtroot=num/2;
+//        do
+//        {
+//            t=sqrtroot;
+//            sqrtroot=(t+(num/t))/2;
+//        }
+//        while((t-sqrtroot)<= 0);
+//        logger.info("answer is"+sqrtroot);
+//        return sqrtroot;
+        return Math.sqrt((double) num);
     }
     
     public double fact(int num){
+        logger.info("Factorial "+num);
         BigInteger factorial = BigInteger.ONE;
         for(int i = 1; i <= num; ++i)
         {
             // factorial = factorial * i;
             factorial = factorial.multiply(BigInteger.valueOf(i));
         }
+        logger.info("Answer is"+factorial.doubleValue());
         return factorial.doubleValue();
     }
 
