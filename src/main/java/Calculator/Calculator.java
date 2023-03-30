@@ -12,6 +12,8 @@ public class Calculator {
     Logger logger= LogManager.getLogger(Calculator.class);
     public Calculator(){
 
+
+
     }
 
 //    public long add(long a,long b){
