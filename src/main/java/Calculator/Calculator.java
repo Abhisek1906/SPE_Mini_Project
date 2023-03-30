@@ -35,34 +35,26 @@ public class Calculator {
 
     public  double squareRoot(int num)
     {
-        logger.info("Square Root of"+num);
-//        double t;
-//        double sqrtroot=num/2;
-//        do
-//        {
-//            t=sqrtroot;
-//            sqrtroot=(t+(num/t))/2;
-//        }
-//        while((t-sqrtroot)<= 0);
-//        logger.info("answer is"+sqrtroot);
-//        return sqrtroot;
-        return Math.sqrt((double) num);
+        logger.info("[Sqaure Root- NUMBER] : " + num);
+        double ans =Math.sqrt((double) num);
+        logger.info("[Square Root- ANSWER] : "  + ans);
+        return ans;
     }
     
     public double fact(int num){
-        logger.info("Factorial "+num);
+        logger.info("[Factorial- NUMBER] : " + num);
         BigInteger factorial = BigInteger.ONE;
         for(int i = 1; i <= num; ++i)
         {
             // factorial = factorial * i;
             factorial = factorial.multiply(BigInteger.valueOf(i));
         }
-        logger.info("Answer is"+factorial.doubleValue());
+        logger.info("[Factorial- ANSWER] : "  + factorial.doubleValue());
         return factorial.doubleValue();
     }
 
     public double naturalLog(double number1) {
-        logger.info("[NATURAL LOG] - " + number1);
+        logger.info("[Natural Log- NUMBER] : " + number1);
         double result = 0;
         try {
 
@@ -76,14 +68,15 @@ public class Calculator {
         } catch (ArithmeticException error) {
             System.out.println("[EXCEPTION - LOG] - Cannot find log of negative numbers " + error.getLocalizedMessage());
         }
-        logger.info("[RESULT - NATURAL LOG] - " + result);
+        logger.info("[Natural Log- ANSWER] : "  + result);
         return result;
     }
 
     public double power(int number1, int number2) {
-        logger.info("[POWER - " + number1 + " RAISED TO] " + number2);
+        logger.info("[POWER- NUMBER 1] : " + number1);
+        logger.info("[POWER- NUMBER 2] : " + number2);
         double result = Math.pow(number1,number2);
-        logger.info("[RESULT - POWER] - " + result);
+        logger.info("[POWER- ANSWER] : "  + result);
         return result;
     }
     public static void main(String[] args){
