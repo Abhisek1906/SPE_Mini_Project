@@ -40,6 +40,8 @@ public class Calculator {
         logger.info("[Square Root- ANSWER] : "  + ans);
         return ans;
     }
+
+
     
     public double fact(int num){
         logger.info("[Factorial- NUMBER] : " + num);
